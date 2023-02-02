@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="titleBar">
+        <div id="container">
+            <div id="corner">
+                <button onclick="take()">Take</button>
+            </div>
+            <div class="test">
+                <button onclick="hold()">Hold</button>
+            </div>
+            <div class="test">
+                <button onclick="skip()">Skip</button>
+            </div>
+        </div>
+    </div>
+    <div id="middlePart">
+        <div id="card1">
+            <span id="number1">?</span>
+        </div>
+        <div id="card2">
+            <span id="number2">?</span>
+        </div>
+        <div id="card3">
+            <span id="number3">?</span>
+        </div>
+        <div id="card4">
+            <span id="number4">?</span>
+        </div>
+        <h1 id="sum">SUM: <span id="result">_</span></h1>
+        <h1><span id="finish"></span></h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
