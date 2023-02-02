@@ -27,3 +27,10 @@ function take(){
         + parseInt(document.getElementById("number3").innerText);
     }
 }
+function reset(){
+    document.getElementById("number1").innerText = "?";
+    document.getElementById("number2").innerText = "?";
+    document.getElementById("number3").innerText = "?";
+    document.getElementById("number4").innerText = "?";
+    document.getElementById("result").innerText = "_";
+}
